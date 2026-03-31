@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>源昌油漆行</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Microsoft JhengHei", sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #d63031;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.label {
+  font-weight: bold;
+}
+
+/* 按鈕 */
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.call {
+  background: #27ae60;
+}
+
+.mobile {
+  background: #0984e3;
+}
+
+.line {
+  background: #00b894;
+}
+
+/* 手機優化 */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- 名片圖片 -->
+  <div class="card">
+    <img src="card.png" alt="名片照片">
+  </div>
+
+  <!-- 公司資訊 -->
+  <div class="card">
+    <h1>源昌油漆行</h1>
+    <div class="subtitle">專業油漆工程 / 室內外美化</div>
+
+    <div class="info">
+      <p><span class="label">服務項目：</span><br>
+      各種油漆、水泥漆、PU防水漆、機械噴漆<br>
+      裝潢油漆、室內外美化、工程承包、油漆買賣
+      </p>
+
+      <p><span class="label">負責人：</span> 徐茂鈞</p>
+      <p><span class="label">地址：</span> 桃園市平鎮區廣興里廣興三街1號</p>
+      <p><span class="label">統一編號：</span> 45059808</p>
+    </div>
+
+    <!-- 聯絡按鈕 -->
+    <div class="buttons">
+      <a class="btn call" href="tel:034935919">📞 市話聯絡</a>
+      <a class="btn mobile" href="tel:0938932272">📱 手機聯絡</a>
+      <!-- LINE 可選（下面可改） -->
+      <a class="btn line" href="#">💬 LINE聯絡</a>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
