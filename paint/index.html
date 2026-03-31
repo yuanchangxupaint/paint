@@ -1,131 +1,129 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>源昌油漆行</title>
 
 <style>
+
 body {
-  margin: 0;
-  font-family: "Microsoft JhengHei", sans-serif;
-  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+font-family: Microsoft JhengHei;
+margin: 0;
+background: #f5f6fa;
+}
+
+header {
+background: #8b0000;
+color: white;
+text-align: center;
+padding: 40px;
+}
+
+section {
+padding: 40px;
 }
 
 .container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 15px;
+max-width: 900px;
+margin: auto;
 }
 
-.card {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-  padding: 20px;
-  margin-bottom: 20px;
+h2 {
+border-bottom: 3px solid #8b0000;
+padding-bottom: 5px;
 }
 
-h1 {
-  text-align: center;
-  color: #d63031;
-  margin-bottom: 10px;
+.service span {
+display: inline-block;
+background: #8b0000;
+color: white;
+padding: 8px 12px;
+margin: 5px;
+border-radius: 5px;
 }
 
-.subtitle {
-  text-align: center;
-  color: #555;
-  margin-bottom: 20px;
+.contact-box {
+background: white;
+padding: 20px;
+margin-top: 20px;
+border-radius: 10px;
+box-shadow: 0px 2px 5px #ccc;
 }
 
-img {
-  width: 100%;
-  border-radius: 10px;
+footer {
+background: #8b0000;
+color: white;
+text-align: center;
+padding: 20px;
 }
 
-.info p {
-  margin: 8px 0;
-  line-height: 1.6;
-}
-
-.label {
-  font-weight: bold;
-}
-
-/* 按鈕 */
-.buttons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 20px;
-  margin: 5px;
-  border-radius: 8px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-.call {
-  background: #27ae60;
-}
-
-.mobile {
-  background: #0984e3;
-}
-
-.line {
-  background: #00b894;
-}
-
-/* 手機優化 */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
-}
 </style>
 
 </head>
 
 <body>
 
-<div class="container">
+<header>
 
-  <!-- 名片圖片 -->
-  <div class="card">
-    <img src="card.png" alt="名片照片">
-  </div>
+<h1>源昌油漆行</h1>
 
-  <!-- 公司資訊 -->
-  <div class="card">
-    <h1>源昌油漆行</h1>
-    <div class="subtitle">專業油漆工程 / 室內外美化</div>
+<p>
+專業油漆施工｜室內外美化｜工程承包
+</p>
 
-    <div class="info">
-      <p><span class="label">服務項目：</span><br>
-      各種油漆、水泥漆、PU防水漆、機械噴漆<br>
-      裝潢油漆、室內外美化、工程承包、油漆買賣
-      </p>
+</header>
 
-      <p><span class="label">負責人：</span> 徐茂鈞</p>
-      <p><span class="label">地址：</span> 桃園市平鎮區廣興里廣興三街1號</p>
-      <p><span class="label">統一編號：</span> 45059808</p>
-    </div>
 
-    <!-- 聯絡按鈕 -->
-    <div class="buttons">
-      <a class="btn call" href="tel:034935919">📞 市話聯絡</a>
-      <a class="btn mobile" href="tel:0938932272">📱 手機聯絡</a>
-      <!-- LINE 可選（下面可改） -->
-      <a class="btn line" href="#">💬 LINE聯絡</a>
-    </div>
+<section class="container">
 
-  </div>
+<h2>服務項目</h2>
+
+<div class="service">
+
+<span>各種油漆</span>
+<span>水泥漆</span>
+<span>PU防水漆</span>
+<span>機械噴漆</span>
+<span>裝潢油漆</span>
+<span>室內外美化</span>
+<span>工程承包</span>
+<span>油漆買賣</span>
 
 </div>
+
+</section>
+
+
+<section class="container">
+
+<h2>聯絡資訊</h2>
+
+<div class="contact-box">
+
+<p><b>聯絡人：</b>徐茂鈞</p>
+
+<p><b>電話：</b>(03) 4935-919</p>
+
+<p><b>手機：</b>0938-932272</p>
+
+<p><b>地址：</b>桃園市平鎮區廣興里廣興三街1號</p>
+
+<p><b>統一編號：</b>45059808</p>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 源昌油漆行
+
+</footer>
 
 </body>
 </html>
